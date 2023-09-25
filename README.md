@@ -4,6 +4,7 @@ currently adds:
 ### Items:
 - Astral Crown: Helmet that changes textures based on your events
 - Event Calendar: Item to show what event is currently active
+- Shifting Rune: Crafting item.
 
 ### Commands:
 - /event: List your events

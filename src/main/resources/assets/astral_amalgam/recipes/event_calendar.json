@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      " /A",
+      "PP/",
+      "PP "
+  ],
+  "key": {
+      "/": {
+          "item": "minecraft:stick"
+      },
+      "A": {
+          "item": "minecraft:amethyst_shard"
+      },
+      "P": {
+          "item": "minecraft:paper"
+      }
+  },
+  "result": {
+      "item": "astral_amalgam:event_calendar",
+      "count": 1
+  }
+}

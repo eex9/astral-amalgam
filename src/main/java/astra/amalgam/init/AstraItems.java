@@ -14,6 +14,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.item.SmithingTemplateItem;
 import net.minecraft.item.ArmorItem.ArmorSlot;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -42,23 +43,23 @@ public class AstraItems {
 		ITEMGROUP_KEY = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(AstralAmalgam.MODID, "item_group"));
 		AMALGAM_ITEMGROUP = FabricItemGroup.builder()
 				.icon(() -> new ItemStack(Items.CHORUS_FRUIT))
-				.name(Text.translatable("itemGroup.tutorial.test_group"))
+				.name(Text.translatable("astral_amalgam.itemgroup.name"))
 				.build();
 		Registry.register(Registries.ITEM_GROUP, ITEMGROUP_KEY, AMALGAM_ITEMGROUP);
 
-		EVENT_CROWN = registerItem(new ArmorItem(ArmorMaterials.TURTLE, ArmorSlot.HELMET, new QuiltItemSettings().maxCount(1)),
+		EVENT_CROWN = registerItem(
+				new ArmorItem(ArmorMaterials.TURTLE, ArmorSlot.HELMET, new QuiltItemSettings().maxCount(1)),
 				"event_crown");
 		EVENT_CALENDAR = registerItem(new EventCalendarItem(new QuiltItemSettings().maxCount(1)),
 				"event_calendar");
+		SHIFTING_RUNE = registerItem(new Item(new QuiltItemSettings()), "shifting_rune");
 	}
 
 	public static Item registerItem(Item item, String name) {
 		Registry.register(Registries.ITEM, MODID + ":" + name, item);
-
 		ItemGroupEvents.modifyEntriesEvent(ITEMGROUP_KEY).register(content -> {
 			content.addItem(item);
 		});
-
 		return item;
 	}
 }

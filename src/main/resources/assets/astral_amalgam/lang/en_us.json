@@ -9,5 +9,6 @@
   "gui.astral_amalgam.event_calendar.test": "Testing Crown is active!",
 
   "item.astral_amalgam.event_crown": "Astral Crown",
-  "item.astral_amalgam.event_calendar": "Event Calendar"
+  "item.astral_amalgam.event_calendar": "Event Calendar",
+  "item.astral_amalgam.shifting_rune": "Rune of Shifting"
 }
