@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "astral_amalgam",
-  "version": "${version}",
+  "version": "v1.1.2",
   "name": "Astral Amalgam",
   "description": "adds some things that i wanted in the game :3",
   "authors": [
@@ -19,12 +19,17 @@
       "astra.amalgam.AstralAmalgamClient"
     ],
     "cardinal-components-entity": [
-      "astra.amalgam.init.ComponentImpl"
+      "astra.amalgam.common.init.ComponentImpl"
     ]
   },
   "mixins": [
     "amalgam.mixins.json"
   ],
+  "custom": {
+    "cardinal-components": [
+      "astral_amalgam:astra_component"
+    ]
+  },
   "depends": {
     "fabricloader": ">=0.14.22",
     "minecraft": "~1.20.1",
