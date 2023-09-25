@@ -1,0 +1,13 @@
+{
+  "mod.astralamalgam.name": "Astral Amalgam",
+  "mod.astralamalgam.contact.discord": "Discord",
+
+  "astral_amalgam.itemgroup.name": "Astral Amalgam",
+
+  "gui.astral_amalgam.event_calendar.none": "No events active!",
+  "gui.astral_amalgam.event_calendar.halloween_2023": "Halloween 2023 Crown is active!",
+  "gui.astral_amalgam.event_calendar.test": "Testing Crown is active!",
+
+  "item.astral_amalgam.event_crown": "Astral Crown",
+  "item.astral_amalgam.event_calendar": "Event Calendar"
+}
