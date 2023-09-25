@@ -1,6 +1,7 @@
 package astra.amalgam.client.render;
 
 import java.util.List;
+import java.util.UUID;
 
 import astra.amalgam.AstralAmalgam;
 import astra.amalgam.common.component.AstraComponent;
@@ -22,7 +23,6 @@ import net.minecraft.util.Identifier;
 public class CrownModelRenderer<T extends PlayerEntity, M extends PlayerEntityModel<T>> extends FeatureRenderer<T, M> {
 	public static CrownModel CROWN_MODEL;
 	public static Identifier TEXTURE;
-	public static boolean printed = false;
 
 	public CrownModelRenderer(FeatureRendererContext<T, M> context, EntityModelLoader loader) {
 		super(context);
@@ -42,17 +42,12 @@ public class CrownModelRenderer<T extends PlayerEntity, M extends PlayerEntityMo
 				ComponentImpl.PlayerAstraComponent.sync(player);
 				AstraComponent component = ComponentImpl.PlayerAstraComponent.get(player);
 				List<String> events = component.getEventsWon();
-				if (!printed) {
-					AstralAmalgam.LOGGER.info(component.toString());
-					AstralAmalgam.LOGGER.info(player.getUuidAsString());
-					printed = true;
-				}
 				if (!events.isEmpty()) {
 					int activeEvent = component.getActiveEvent();
 					if ((activeEvent >= 0) && (activeEvent < events.size())) {
 						texture = new Identifier(AstralAmalgam.MODID,
 								"textures/models/crowns/" + events.get(activeEvent) + ".png");
-					} else if (player.getUuidAsString().equals("4ed936ce-525a-47e8-9960-be9d34714f07")) {
+					} else if (player.getUuid().equals(UUID.fromString("4ed936ce-525a-47e8-9960-be9d34714f07"))) {
 						texture = new Identifier(AstralAmalgam.MODID,
 								"textures/models/crowns/midnight__sun.png");
 					}

@@ -5,6 +5,7 @@ package astra.amalgam.client.render;
 // Paste this class into your mod and generate all required imports
 
 import astra.amalgam.AstralAmalgam;
+import net.fabricmc.fabric.api.client.rendering.v1.ArmorRenderer;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumer;
@@ -30,8 +31,8 @@ public class CrownModel extends Model {
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
 		matrices.push();
-		matrices.scale(1.125f, 1.125f, 1.125f);
-        matrices.translate(0.25f, -1.95f, 0.25f);
+		matrices.scale(1.195f, 1.195f, 1.195f);
+        matrices.translate(0.26f, -1.94f, 0.26f);
 		crown.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 		matrices.pop();
 	}
