@@ -1,14 +1,13 @@
-package astra.amalgam.render;
+package astra.amalgam.client.render;
 
 // Made with Blockbench 4.7.4
 // Exported for Minecraft version 1.17+ for Yarn
 // Paste this class into your mod and generate all required imports
 
-import com.mojang.blaze3d.vertex.VertexConsumer;
-
 import astra.amalgam.AstralAmalgam;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;

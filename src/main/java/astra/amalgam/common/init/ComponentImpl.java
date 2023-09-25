@@ -1,8 +1,8 @@
-package astra.amalgam.init;
+package astra.amalgam.common.init;
 
 import astra.amalgam.AstralAmalgam;
-import astra.amalgam.component.AstraComponent;
-import astra.amalgam.component.PlayerComponents;
+import astra.amalgam.common.component.AstraComponent;
+import astra.amalgam.common.component.PlayerComponents;
 import dev.onyxstudios.cca.api.v3.component.ComponentKey;
 import dev.onyxstudios.cca.api.v3.component.ComponentRegistry;
 import dev.onyxstudios.cca.api.v3.entity.EntityComponentFactoryRegistry;

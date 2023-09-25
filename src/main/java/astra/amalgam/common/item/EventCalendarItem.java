@@ -1,7 +1,7 @@
-package astra.amalgam.item;
+package astra.amalgam.common.item;
 
-import astra.amalgam.component.AstraComponent;
-import astra.amalgam.init.ComponentImpl;
+import astra.amalgam.common.component.AstraComponent;
+import astra.amalgam.common.init.ComponentImpl;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;

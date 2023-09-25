@@ -1,4 +1,4 @@
-package astra.amalgam.component;
+package astra.amalgam.common.component;
 
 import java.util.List;
 

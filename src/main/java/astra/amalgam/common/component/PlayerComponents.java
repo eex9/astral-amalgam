@@ -1,9 +1,9 @@
-package astra.amalgam.component;
+package astra.amalgam.common.component;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import astra.amalgam.init.ComponentImpl;
+import astra.amalgam.common.init.ComponentImpl;
 import dev.onyxstudios.cca.api.v3.component.sync.AutoSyncedComponent;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.nbt.NbtCompound;

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "astral_amalgam",
+  "version": "${version}",
+  "name": "Astral Amalgam",
+  "description": "adds some things that i wanted in the game :3",
+  "authors": [
+    "midnight__sun"
+  ],
+  "contact": {},
+  "icon": "assets/astral_amalgam/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "astra.amalgam.AstralAmalgam"
+    ],
+    "client": [
+      "astra.amalgam.AstralAmalgamClient"
+    ],
+    "cardinal-components-entity": [
+      "astra.amalgam.init.ComponentImpl"
+    ]
+  },
+  "mixins": [
+    "amalgam.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "cardinal-components-base": ">=5.0.0",
+    "cardinal-components-entity": ">=5.0.0"
+  }
+}

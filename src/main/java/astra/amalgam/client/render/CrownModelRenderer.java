@@ -1,13 +1,11 @@
-package astra.amalgam.render;
+package astra.amalgam.client.render;
 
 import java.util.List;
 
-import org.quiltmc.loader.api.minecraft.ClientOnly;
-
 import astra.amalgam.AstralAmalgam;
-import astra.amalgam.component.AstraComponent;
-import astra.amalgam.init.AstraItems;
-import astra.amalgam.init.ComponentImpl;
+import astra.amalgam.common.component.AstraComponent;
+import astra.amalgam.common.init.AstraItems;
+import astra.amalgam.common.init.ComponentImpl;
 import net.minecraft.client.render.OverlayTexture;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumerProvider;
@@ -21,7 +19,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
-@ClientOnly
 public class CrownModelRenderer<T extends PlayerEntity, M extends PlayerEntityModel<T>> extends FeatureRenderer<T, M> {
 	public static CrownModel CROWN_MODEL;
 	public static Identifier TEXTURE;

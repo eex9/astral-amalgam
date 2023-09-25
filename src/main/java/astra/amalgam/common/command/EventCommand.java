@@ -1,4 +1,4 @@
-package astra.amalgam.command;
+package astra.amalgam.common.command;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
@@ -6,9 +6,8 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.context.CommandContext;
 
 import astra.amalgam.AstralAmalgam;
-import astra.amalgam.component.AstraComponent;
-import astra.amalgam.init.ComponentImpl;
-import net.minecraft.command.CommandBuildContext;
+import astra.amalgam.common.component.AstraComponent;
+import astra.amalgam.common.init.ComponentImpl;
 import net.minecraft.command.argument.EntityArgumentType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.server.command.ServerCommandSource;
@@ -16,8 +15,7 @@ import net.minecraft.text.Text;
 import static net.minecraft.server.command.CommandManager.*;
 
 public class EventCommand {
-	public static void init(CommandDispatcher<ServerCommandSource> dispatcher,
-			CommandBuildContext commandBuildContext) {
+	public static void init(CommandDispatcher<ServerCommandSource> dispatcher) {
 		dispatcher.register(literal("event")
 				.then(literal("add")
 						.requires(source -> source.hasPermissionLevel(2))
