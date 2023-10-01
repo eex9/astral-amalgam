@@ -5,7 +5,6 @@ package astra.amalgam.client.render;
 // Paste this class into your mod and generate all required imports
 
 import astra.amalgam.AstralAmalgam;
-import net.fabricmc.fabric.api.client.rendering.v1.ArmorRenderer;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumer;
@@ -21,6 +20,7 @@ public class CrownModel extends Model {
 		super(RenderLayer::getEntityTranslucent);
 		this.crown = root.getChild("crown");
 	}
+	
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
 		ModelPartData modelPartData = modelData.getRoot();

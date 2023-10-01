@@ -3,7 +3,7 @@
 	"quilt_loader": {
 		"group": "astra.amalgam",
 		"id": "astral_amalgam",
-		"version": "${version}",
+		"version": "1.1.6",
 		"metadata": {
 			"name": "Astral Amalgam",
 			"description": "adds some things that i wanted in the game :3",
