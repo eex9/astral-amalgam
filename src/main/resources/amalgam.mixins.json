@@ -3,7 +3,9 @@
 	"minVersion": "0.8",
 	"package": "astra.amalgam.mixin",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [],
+	"mixins": [
+    "TurtleHelmetMixin"
+  ],
 	"client": [
     "HeadFeatureRendererMixin",
     "PlayerEntityRendererMixin",

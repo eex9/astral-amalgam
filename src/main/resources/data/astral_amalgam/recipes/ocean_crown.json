@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+      "item": "astral_amalgam:ocean_rune"
+  },
+  "base": {
+      "item": "minecraft:turtle_helmet"
+  },
+  "addition": {
+      "item": "minecraft:heart_of_the_sea"
+  },
+  "result": {
+      "item": "astral_amalgam:ocean_crown"
+  }
+}

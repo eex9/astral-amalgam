@@ -19,6 +19,7 @@ public class EventCalendarItem extends Item {
 
 	@Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
+		if (!world.isClient()) return TypedActionResult.success(player.getStackInHand(hand));
         AstraComponent component = ComponentImpl.PlayerAstraComponent.get(player);
         MinecraftClient mc = MinecraftClient.getInstance();
 		String event = component.getActiveEvent() >= 0 ? component.getEventsWon().get(component.getActiveEvent()) : "none";

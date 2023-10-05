@@ -47,14 +47,14 @@ public class CrownModelRenderer<T extends PlayerEntity, M extends PlayerEntityMo
 					if ((activeEvent >= 0) && (activeEvent < events.size())) {
 						texture = new Identifier(AstralAmalgam.MODID,
 								"textures/models/crowns/" + events.get(activeEvent) + ".png");
-					} else if (player.getUuid().equals(UUID.fromString("4ed936ce-525a-47e8-9960-be9d34714f07"))) {
-						texture = new Identifier(AstralAmalgam.MODID,
-								"textures/models/crowns/midnight__sun.png");
 					}
+				} else if (player.getUuid().equals(UUID.fromString("4ed936ce-525a-47e8-9960-be9d34714f07"))) {
+					texture = new Identifier(AstralAmalgam.MODID,
+							"textures/models/crowns/midnight__sun.png");
 				}
 				CROWN_MODEL.render(matrices,
-					vertexConsumers.getBuffer(RenderLayer.getEntityCutout(texture)), light,
-					OverlayTexture.DEFAULT_UV, 1f, 1f, 1f, 1f);
+						vertexConsumers.getBuffer(RenderLayer.getEntityCutout(texture)), light,
+						OverlayTexture.DEFAULT_UV, 1f, 1f, 1f, 1f);
 				matrices.pop();
 			}
 		}

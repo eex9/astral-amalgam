@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:nautilus_shell"
+      },
+      {
+          "item": "minecraft:stone"
+      },
+      {
+          "item": "minecraft:prismarine_shard"
+      }
+  ],
+  "result": {
+      "item": "astral_amalgam:ocean_rune",
+      "count": 1
+  }
+}
