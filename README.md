@@ -4,7 +4,8 @@ currently adds:
 ### Items:
 - Astral Crown: Helmet that changes textures based on your events
 - Event Calendar: Item to show what event is currently active
-- Shifting Rune: Crafting item.
+- Crown of the Sea: Upgraded turtle helmet. Gives conduit power and more armor
+- All runes are crafting items.
 
 ### Commands:
 - /event: List your events
