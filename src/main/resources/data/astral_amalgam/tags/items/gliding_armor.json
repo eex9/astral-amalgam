@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+      "astral_amalgam:gliding_helmet",
+      "astral_amalgam:gliding_chestplate",
+      "astral_amalgam:gliding_leggings",
+      "astral_amalgam:gliding_boots"
+  ]
+}

@@ -8,10 +8,38 @@
   "gui.astral_amalgam.event_calendar.halloween_2023": "Halloween 2023 Crown is active!",
   "gui.astral_amalgam.event_calendar.test": "Testing Crown is active!",
 
+  "death.attack.crashed_into_with_elytra": "%1$s learned about the first law of motion",
+  "death.attack.crashed_into_with_elytra.player": "%2$s taught %1$s about the first law of motion",
+
   "item.astral_amalgam.event_crown": "Astral Crown",
   "item.astral_amalgam.event_calendar": "Event Calendar",
   "item.astral_amalgam.shifting_rune": "Rune of Shifting",
 
   "item.astral_amalgam.ocean_crown": "Crown of the Seas",
-  "item.astral_amalgam.ocean_rune": "Rune of the Waves"
+  "item.astral_amalgam.ocean_rune": "Rune of the Waves",
+
+  "item.astral_amalgam.candy_shell": "Candy Shell",
+  "item.astral_amalgam.caramel": "Carmael",
+  "item.astral_amalgam.crying_obsidian_jawbreaker": "Crying Obsidian Jawbreaker",
+  "item.astral_amalgam.glow_berry_cookie": "Glow Berry Cookie",
+  "item.astral_amalgam.glow_berry_thorn": "Glow Berry Thorn",
+  "item.astral_amalgam.honey_candy": "Candied Honey",
+  "item.astral_amalgam.obsidian_jawbreaker": "Obsidian Jawbreaker",
+  "item.astral_amalgam.sweet_berry_cookie": "Sweet Berry Cookie",
+  "item.astral_amalgam.sweet_berry_thorn": "Sweet Berry Thorn",
+  "item.astral_amalgam.caramel_apple": "Caramel Apple",
+  "item.astral_amalgam.caramel_golden_apple": "Caramel Golden Apple",
+  "item.astral_amalgam.enchanted_caramel_golden_apple": "Enchanted Caramel Golden Apple",
+
+  "item.astral_amalgam.gliding_helmet": "Gliding Goggles",
+  "item.astral_amalgam.gliding_chestplate": "Gliding Chestplate",
+  "item.astral_amalgam.gliding_leggings": "Gliding Leggings",
+  "item.astral_amalgam.gliding_boots": "Gliding Boots",
+  "item.astral_amalgam.cloud_rune": "Cloud Rune",
+
+  "item.astral_amalgam.soaring_crown": "Crown of the Skies",
+  "item.astral_amalgam.soaring_chestplate": "Soaring Breastplate",
+  "item.astral_amalgam.soaring_leggings": "Soaring Leggings",
+  "item.astral_amalgam.soaring_boots": "Soaring Talons",
+  "item.astral_amalgam.winged_ingot": "Icarian Ingot"
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+      "item": "astral_amalgam:cloud_rune"
+  },
+  "base": {
+    "item": "astral_amalgam:gliding_chestplate"
+  },
+  "addition": {
+      "item": "astral_amalgam:winged_ingot"
+  },
+  "result": {
+      "item": "astral_amalgam:soaring_chestplate"
+  }
+}

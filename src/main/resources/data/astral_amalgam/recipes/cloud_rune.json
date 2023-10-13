@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:phantom_membrane"
+      },
+      {
+          "item": "minecraft:stone"
+      },
+      {
+          "item": "minecraft:feather"
+      }
+  ],
+  "result": {
+      "item": "astral_amalgam:cloud_rune",
+      "count": 1
+  }
+}

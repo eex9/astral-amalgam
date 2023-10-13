@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+      "item": "astral_amalgam:cloud_rune"
+  },
+  "base": {
+      "item": "minecraft:iron_boots"
+  },
+  "addition": {
+      "item": "minecraft:phantom_membrane"
+  },
+  "result": {
+      "item": "astral_amalgam:gliding_boots"
+  }
+}

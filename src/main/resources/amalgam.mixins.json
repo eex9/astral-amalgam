@@ -4,7 +4,8 @@
 	"package": "astra.amalgam.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-    "TurtleHelmetMixin"
+    "TurtleHelmetMixin",
+    "CrashDamageMixin"
   ],
 	"client": [
     "HeadFeatureRendererMixin",

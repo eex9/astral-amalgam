@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "minecraft:crying_obsidian"
+      },
+      {
+          "item": "astral_amalgam:candy_shell"
+      }
+  ],
+  "result": {
+      "item": "astral_amalgam:crying_obsidian_jawbreaker",
+      "count": 4
+  }
+}

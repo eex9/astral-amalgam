@@ -40,8 +40,8 @@ public abstract class TurtleHelmetMixin extends LivingEntity {
             if ((!this.isSubmergedIn(FluidTags.WATER) && (!this.canBreatheInWater()))
                     || (this.isSubmergedIn(FluidTags.WATER) && (this.canBreatheInWater()))) {
                 this.addStatusEffect(
-                        new StatusEffectInstance(StatusEffects.WATER_BREATHING, 400, 0, false, false, true));
-                this.addStatusEffect(new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 300, 0, false, false, true));
+                        new StatusEffectInstance(StatusEffects.WATER_BREATHING, 600, 0, false, false, true));
+                this.addStatusEffect(new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 400, 0, false, false, true));
             }
             if ((!this.abilities.creativeMode) && (!this.isSubmergedIn(FluidTags.WATER))) {
                 this.abilities.allowFlying = false;

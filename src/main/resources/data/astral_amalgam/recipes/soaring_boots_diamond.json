@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+      "item": "astral_amalgam:cloud_rune"
+  },
+  "base": {
+      "item": "minecraft:diamond_boots"
+  },
+  "addition": {
+      "item": "astral_amalgam:winged_ingot"
+  },
+  "result": {
+      "item": "astral_amalgam:soaring_boots"
+  }
+}

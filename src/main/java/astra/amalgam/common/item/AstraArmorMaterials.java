@@ -16,9 +16,15 @@ public enum AstraArmorMaterials implements ArmorMaterial{
 	EVENT("event", 20, new int[]{1,3,5,2}, 24, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0f, 0.0f, () -> {
 		return Ingredient.ofItems(AstraItems.SHIFTING_RUNE, Items.AMETHYST_SHARD, Items.GOLD_INGOT);
 	}),
-	OCEAN("ocean", 40, new int[]{3,6,8,3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0f, 0.0f, () -> {
+	OCEAN("ocean", 40, new int[]{3,6,8,3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 3.0f, 0.0f, () -> {
 		return Ingredient.ofItems(AstraItems.OCEAN_RUNE, Items.PRISMARINE_SHARD, Items.PRISMARINE_CRYSTALS);
-	});
+	}),
+	GLIDING("gliding", 30, new int[]{1,4,5,2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.0f, 0.0f, () -> {
+		return Ingredient.ofItems(AstraItems.CLOUD_RUNE, AstraItems.WINGED_INGOT);
+	}),
+    SOARING("soaring", 40, new int[] {3,6,8,3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f, 0.0f, () -> {
+        return Ingredient.ofItems(AstraItems.CLOUD_RUNE, AstraItems.WINGED_INGOT);
+    });
 
 	private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 12};
     private final String name;

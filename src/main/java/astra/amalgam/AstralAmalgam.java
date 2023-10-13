@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import astra.amalgam.common.command.EventCommand;
-import astra.amalgam.common.init.AstraItems;
+import astra.amalgam.common.init.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 
@@ -19,6 +19,7 @@ public class AstralAmalgam implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("hello fabric world :3");
 		AstraItems.init();
+		AstraTags.init();
 		CommandRegistrationCallback.EVENT.register((dispatcher, commandBuildContext, environment) -> {
 			EventCommand.init(dispatcher);
 		});
