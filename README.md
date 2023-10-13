@@ -7,6 +7,10 @@ currently adds:
 - Crown of the Sea: Upgraded turtle helmet. Gives conduit power and more armor
 - Gliding Set: Allows you to deal crash damage when flying with an elytra. Gives the same amount of protection as chain mail so elytrians (from origins) can wear it.
 - Soaring set: Upgraded gliding set. Deals twice as much crash damage and gives the same amount of protection as diamond armor.
+- Candy: kinda self explanitory
+    - Jawbreakers have a chance of damaging you
+    - Caramel apples give saturation
+    - Glow berry items give glowing
 - All runes are crafting items.
 
 ### Commands:
