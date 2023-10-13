@@ -43,7 +43,6 @@ public abstract class CrashDamageMixin extends Entity {
 		List<LivingEntity> collidingEntities = this.getWorld().getNonSpectatingEntities(LivingEntity.class, this.getBoundingBox());
 		Vec3d vel = this.getVelocity();
 		double magnitude = Math.sqrt(Math.abs(vel.getX() * vel.getX()) + Math.abs(vel.getY() * vel.getY()) + Math.abs(vel.getZ() + vel.getZ()));
-		System.out.println(magnitude);
 		for (LivingEntity entity: collidingEntities) {
 			if (entity.equals(this)) continue;
 			if (Double.isNaN(magnitude)) magnitude = 1.0;
