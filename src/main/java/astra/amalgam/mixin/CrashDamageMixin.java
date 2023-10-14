@@ -44,7 +44,7 @@ public abstract class CrashDamageMixin extends Entity {
 		Vec3d vel = this.getVelocity();
 		double magnitude = Math.sqrt(Math.abs(vel.getX() * vel.getX()) + Math.abs(vel.getY() * vel.getY()) + Math.abs(vel.getZ() + vel.getZ()));
 		for (LivingEntity entity: collidingEntities) {
-			if (entity.equals(this)) continue;
+			if (this.equals(entity)) continue;
 			if (Double.isNaN(magnitude)) magnitude = 1.0;
 			entity.damage(AstraDamageTypes.of(this.getWorld(), AstraDamageTypes.CRASH_DAMAGE_TYPE), (float)(glidingDamageMult * magnitude * 2));
 			if (Float.isNaN(entity.getHealth())) entity.kill();

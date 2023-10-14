@@ -105,6 +105,7 @@ public class AstraItems {
 
 		CARAMEL = registerItem(new Item(new FabricItemSettings().food(AstraFoods.CARAMEL)), "caramel");
 		CANDY_SHELL = registerItem(new Item(new FabricItemSettings().food(AstraFoods.CANDY_SHELL)), "candy_shell");
+		HONEY_CANDY = registerItem(new Item(new FabricItemSettings().food(AstraFoods.HONEY_CANDY)), "honey_candy");
 		GLOW_BERRY_COOKIE = registerItem(new Item(new FabricItemSettings().food(AstraFoods.GLOW_BERRY_COOKIE)),
 				"glow_berry_cookie");
 		SWEET_BERRY_COOKIE = registerItem(new Item(new FabricItemSettings().food(AstraFoods.SWEET_BERRY_COOKIE)),
